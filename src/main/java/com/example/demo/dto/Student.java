@@ -7,6 +7,15 @@ public class Student {
     private Integer id;
     private String name;
     private String sex;
+    private String tel;
+
+    public String getTel() {
+        return tel;
+    }
+
+    public void setTel(String tel) {
+        this.tel = tel;
+    }
 
     public Integer getId() {
         return id;
